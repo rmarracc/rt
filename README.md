@@ -20,8 +20,8 @@ You can use the scenes given in the scenes folder ou create yours.
 
 Add light :
 `light [position] [color/pow]`
-position : 3 decimal numbers
-color/pow : 3 decimal numbers, representating rgb color, higher number for stronger light spot
+- position : 3 decimal numbers
+- color/pow : 3 decimal numbers, representating rgb color, higher number for stronger light spot
 
 Add object :
 `quadric [parameters] [color]
