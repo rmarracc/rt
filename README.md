@@ -18,18 +18,18 @@ You can use the scenes given in the scenes folder ou create yours.
 
 ## Scene creation
 
-Add light :
+### Add light
 `light [position] [color/pow]`
 - position : 3 decimal numbers
 - color/pow : 3 decimal numbers, representating rgb color, higher number for stronger light spot
 
-Add object :
-`quadric [parameters] [color]
-sphere [position] [radius] [color]
-plane [position] [rotation x] [rotation y] [color]
-cone [position] [rotation x] [rotation y] [angle] [color]
-cylindre [position] [rotation x] [rotation y] [radius] [color]
-dice [color]`
+### Add object
+`quadric [parameters] [color]`
+`sphere [position] [radius] [color]`
+`plane [position] [rotation x] [rotation y] [color]`
+`cone [position] [rotation x] [rotation y] [angle] [color]`
+`cylindre [position] [rotation x] [rotation y] [radius] [color]`
+`dice [color]`
 - parameters : quadric equation parameters (10 decimal numbers) (https://en.wikipedia.org/wiki/Quadric)
 - color : rgb color (3 decimal numbers), between 0 and 1
 - position : xyz position (3 decimal numbers), between 0 and 1
@@ -37,21 +37,21 @@ dice [color]`
 - angle : cone angle (1 decimal number)
 - radius : sphere/cylinder radius (1 decimal number)
 
-Add group :
-`section [num_objects]
-union [num_objects]`
+### Add group
+`section [num_objects]`
+`union [num_objects]`
 - num_objects : number of previously defined objects (1 entire number)
 
-Additional objects parameters :
-`inverted
-material [reflextion] [transparency] [refraction indice]
-texture [index] [zoom] [x offset]
-damier [value]
-wave [value]
-wood [value]
-perlin [value]
-bump [value]
-specular [specular] [alpha]`
+###  Additional objects parameters
+`inverted`
+`material [reflextion] [transparency] [refraction indice]`
+`texture [index] [zoom] [x offset]`
+`damier [value]`
+`wave [value]`
+`wood [value]`
+`perlin [value]`
+`bump [value]`
+`specular [specular] [alpha]`
 - reflextion : reflextion percentage between 0 and 1 (1 decimal number)
 - transparency : transparency percentage between 0 and 1 (1 decimal number)
 - refraction indice : refraction value for Snell Descartes formula (1 decimal number) (glass : 1.54, water : 1.30, diamond : 2.40)
