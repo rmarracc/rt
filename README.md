@@ -5,7 +5,7 @@ Raytracer developed in C language
 
 ### Clone
 
-- Clone this repo using `git clone https://github.com/rmarracc/md5`
+- Clone this repo using `git clone https://github.com/rmarracc/rt`
 
 ### Build
 
