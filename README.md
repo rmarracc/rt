@@ -84,6 +84,10 @@ You can use the scenes given in the scenes folder ou create yours.
 - 8 - Display light spots
 - 9 - Replace pure black color (rgb(0, 0, 0)) by 100% transparent item
 
+## Pictures
+
+https://postimg.cc/gallery/g9reoh8w/
+
 ## Known bugs
 
 - Accepts scenes without any objects containing a new line
